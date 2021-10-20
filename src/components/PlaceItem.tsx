@@ -1,6 +1,3 @@
-import { isPropertySignature } from "typescript";
-import { Url } from "url";
-
 interface PlaceItemProps {
   title: string;
   name: string;

@@ -10,7 +10,7 @@ interface PlaceItemProps {
 
 function PlaceItem(props: PlaceItemProps): JSX.Element {
   return (
-    <div>
+    <div className="place">
       <img src={props.image} alt={props.imageAlt} />
       <h2>{props.title}</h2>
       <h3>
@@ -21,4 +21,5 @@ function PlaceItem(props: PlaceItemProps): JSX.Element {
   );
 }
 
-export default PlaceItem;
+export { PlaceItem };
+export type { PlaceItemProps };
